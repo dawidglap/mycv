@@ -10,13 +10,17 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="css/styles.css">
 
+        <!--========= FONTAWESOME  =========-->
+        <script src="https://kit.fontawesome.com/d25c4f8823.js" crossorigin="anonymous"></script>
+
         <title>Responsive resume cv</title>
     </head>
     <body>
-        <!--========== HEADER ==========-->
+        <!-- class="scale-cv" -->
+        <!-- ========== HEADER ========== -->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Glapiak</a>
+                <a href="#" class="nav__logo">< DawidGlapiak ></a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -50,7 +54,7 @@
                             </a>
                         </li>
 
-                        <li class="nav__item">
+                        <!-- <li class="nav__item">
                             <a href="#certificates" class="nav__link">
                                 <i class='bx bx-award nav__icon' ></i>Certificates
                             </a>
@@ -60,7 +64,7 @@
                             <a href="#references" class="nav__link">
                                 <i class='bx bx-link-external nav__icon'></i>References
                             </a>
-                        </li>
+                        </li> -->
 
                     </ul>
                 </div>
@@ -85,7 +89,7 @@
 
                                 <!-- Button to generate and download the pdf. Available for desktop. -->
                                 <div>
-                                    <a download="" href="pdf/resume.pdf" class="home__button-movil">Download as PDF</a>
+                                    <a  href="https://drive.google.com/uc?export=download&id=1PpmW72nOdRJGEtWl-gGNSzY_pLkSlJXi" class="home__button-movil">Download as PDF</a>
                                 </div>
                             </div>
 
@@ -106,8 +110,11 @@
                         </div>
                         
                         <!-- Theme change button -->
+                        <i class="far fa-moon change-theme" title="Theme" id="theme-button"></i>
+                         
+                        <!-- DOWNLOAD CV BUTTON  -->
+                        <a href="https://dawidglap.dev/about.html" class="back-home"><i class='bx bxs-chevrons-left go-back' title="Generate PDF" id="resume-button"></i></a>
                         
-    
 
                     </section>          
                     
@@ -117,15 +124,15 @@
 
                         <div class="social__container bd-grid">
                             <a href="https://www.linkedin.com/in/dawid-glapiak/" target="_blank" class="social__link">
-                                <i class='social__icon bx bxl-linkedin-square' ></i> @dawidGlapiak
+                                <i class='social__icon bx bxl-linkedin-square' ></i> Linkedin
                             </a>
 
                             <a href="https://github.com/dawidglap/" target="_blank" class="social__link">
-                                <i class='social__icon bx bxl-github' ></i></i> @dawidglap
+                                <i class='social__icon bx bxl-github' ></i></i> Github
                             </a>
 
                             <a href="https://gitlab.com/dawidglap" target="_blank" class="social__link">
-                                <i class='social__icon bx bxl-gitlab' ></i></i> @dawidglap
+                                <i class='social__icon bx bxl-gitlab' ></i></i> GitLab
                             </a>
                         </div>
                     </section>
@@ -264,7 +271,7 @@
 
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title">Aulab Hackademy (Remote)</h3>
-                                    <span class="experience__company"> Sep to Dec '21'| Full Stack Developer</span>
+                                    <span class="experience__company"> Sep to Dec '21' | Full Stack Developer</span>
                                     <p class="experience__description">With a team of 6 people we developed an ad portal in 2 weeks. We worked with the SCRUM methodology (reduced to just 2 weeks due to the timing of the course)and using the Git control system. We have developed our portal working mainly with PHP Taking advantage of the Laravel framework some of its packages such as Fortify for user authentication or Scout for the fulltext research. The Dropzone.js library to allow the user to insert images. MySQL as a database and exploited the one-to-many relationship between categories and ads. Implemented the resize of the image as an asynchronous request to allow the portal to be performing. And the artificial intelligence of the Google VisionAPI to filter and tag the contents of the photos of the ads on our portal. During the bootcamp I learned: HTML5 & CSS3, Javascript, NodeJs, Bootstrap, PHP with Laravel Framework, MySql with ELOQUENT, SCRUM and Agile Methodologies.</p>
                                 </div>
                             </div>
@@ -303,50 +310,104 @@
 
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title">Associazione Italiana Arbitri FIGC (Italy)</h3>
-                                    <span class="experience__company"> I have been a football referee because sport has always been my passion. It was a wonderful experience that shaped my character a lot. I was a boy of just 20 years and I had to manage and enforce the rules for 22 players on the field, plus as many members on the benches of the two teams. Make split-second decisions and demonstrate firmness and confidence. Often managing the pressure of hundreds of fans who criticized my choices from the stands. In soccer it is a classic.</p>
+                                    <span class="experience__company"> Jan '09 to Jul '16 | I have been a football referee because sport has always been my passion. It was a wonderful experience that shaped my character a lot. I was a boy of just 20 years and I had to manage and enforce the rules for 22 players on the field, plus as many members on the benches of the two teams. Make split-second decisions and demonstrate firmness and confidence. Often managing the pressure of hundreds of fans who criticized my choices from the stands. In soccer it is a classic.</p>
                                 </div>
                             </div>
 
                             <div class="experience__content">
                                 <div class="experience__time">
                                     <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
+                                    <!-- <span class="experience__line"></span> -->
                                 </div>
 
                                 <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Genting Casinos UK (Glasgow, Scotland)</h3>
-                                    <span class="experience__company"> March '18 to May '19 | Croupier </span>
-                                    <p class="experience__description">As my first job as a croupier in Glasgow(UK) I improved my English language and worked constantly with clients from many different countries. After only 2 months of work I was elected employee of the month.</p>
+                                    <h3 class="experience__title">MOAI SRL(Fiumicino, Italy)</h3>
+                                    <span class="experience__company"> Jun '07 to Sep '15 | Manager </span>
+                                    <p class="experience__description">Bathhouse in the municipality of Fiumicino where I started working bringing sunbeds. After a season I started working as a cashier. The following years I took care of the cash department. The training of new staff, the orders of the various suppliers (bar, restaurant) and the management of the cash system and its optimization over the seasons. Making the operator's work fast and intuitive and guaranteeing the customer short waiting times. The facility had around 20-25 employees and a beach that accommodated from 1000 people a day, to over 4000 at the weekend.</p>
                                 </div>
                             </div>
                         </div>
                     </section>
 
                     <!--========== CERTIFICATES ==========-->
-                    <section class="certificate section" id="certificates">
+                    <!-- <section class="certificate section" id="certificates">
                         
-                    </section>
+                    </section> -->
 
                     <!--========== REFERENCES ==========-->
-                    <section class="references section" id="references">
+                    <!-- <section class="references section" id="references">
                         
-                    </section>
+                    </section> -->
 
                     <!--========== LANGUAGES ==========-->
                     <section class="languages section">
-                        
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="Languages___name">
+                                    <span class="languages__circle"></span>Italian
+                                </li>
+                                <li class="Languages___name">
+                                    <span class="languages__circle"></span>English
+                                </li>
+                                <li class="Languages___name">
+                                    <span class="languages__circle"></span>Spanish
+                                </li>
+                                <li class="Languages___name">
+                                    <span class="languages__circle"></span>German
+                                </li>
+                                <li class="Languages___name">
+                                    <span class="languages__circle"></span>Polish
+                                </li>
+                            </ul>
+                        </div>
                     </section>
                     
                     <!--========== INTERESTS ==========-->
                     <section class="interests section">
-                        
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="interests__icon fas fa-running"></i>
+                                <span class="interests__name">Running</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='interests__icon bx bx-cycling'></i>
+                                <span class="interests__name">Cycling</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="interests__icon fas fa-swimmer"></i>
+                                <span class="interests__name">Swimming</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="interests__icon fas fa-code"></i>
+                                <span class="interests__name">Coding</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="interests__icon fas fa-plane-departure"></i>
+                                <span class="interests__name">Travel</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="interests__icon fas fa-book"></i>
+                                <span class="interests__name">Reading</span>
+                            </div>
+                        </div>
                     </section>
                 </div>
             </div>        
         </main>
 
         <!--========== SCROLL TOP ==========-->
-        
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="fas fa-chevron-up  scrolltop__icon"></i>
+        </a>
 
         <!--========== HTML2PDF ==========-->
         <script src="js/html2pdf.bundle.min.js"></script>
