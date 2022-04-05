@@ -44,3 +44,8 @@ background-color: green;
 display: block;
 bottom: -13px;
 } */
+
+.my-link:hover{
+    color: #6DED89;
+  
+}
