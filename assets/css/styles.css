@@ -51,6 +51,11 @@
        scroll-behavior: smooth;
    }
 
+   body{
+    margin-top: 0 !important;
+
+   }
+
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
     --title-color: #f2f2f2;
@@ -290,10 +295,15 @@ img{
     }
 }
 
+.bxs-chevrons-left{
+    padding: 0 1rem;
+}
+
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    padding: 1.2rem;
 }
 
 .nav__toggle{
@@ -356,6 +366,7 @@ img{
     height: 120px;
     border-radius: 50%;
     justify-self: center;
+    object-fit: cover;
     margin-bottom: var(--mb-1);
 }
 
@@ -381,6 +392,7 @@ img{
 .home__icon{
     font-size: 1.2rem;
     margin-right: 0.25rem;
+    padding: 0 1rem;
 }
 
 .home__button-movil{
@@ -417,14 +429,19 @@ img{
 
 .social__icon{
     font-size: 1.2rem;
+    padding: 0 1rem;
 }
 
 /*========== PROFILE ==========*/
 .profile__description{
-    /* text-align: center; */
+    padding: 0rem 1.2rem;
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
+.experience{
+    padding: 1.2rem 1rem;
+}
+
 .education__content,
 .experience__content{
     display: flex;
@@ -475,9 +492,21 @@ img{
     font-size: var(--smaller-font-size);
 }
 
+.education__container{
+    padding: 0 1rem;
+}
+
 
 
 /*========== SKILLS AND LANGUAGES ==========*/
+.skills{
+    padding: 0 1rem;
+}
+
+.languages{
+    padding: 0 1rem;
+}
+
 .skills__content,
 .languages__content{
     grid-template-columns: repeat(3, 1fr);
@@ -556,12 +585,38 @@ img{
     bottom:5rem;
 }
 
+.show-certificate{
+    padding: 0.75rem;
+
+}
+
+.section{
+    margin-top: 2rem;
+}
+
+
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
 @media  screen and (max-width:320px) {
     .nav__list{
         grid-template-columns: repeat(2,1fr);
         gap: 1rem 0.5rem;
+    }
+
+
+    
+}
+
+@media  screen and (max-width:400px) {
+   
+
+    .interests__container{
+        display: block;
+        
+    }
+
+    .interests__name{
+        padding: 1rem;
     }
     
 }
@@ -606,14 +661,17 @@ img{
     .section-title,
     .profile__description{
         text-align: initial;
+        
     }
+
+    
 
     .home__container{
         gap: 1.5rem;
     }
 
     .home__button-movil{
-        display: none;
+        /* display: none; */
     }
 
     .references__container{
@@ -629,4 +687,19 @@ img{
         grid-template-columns: repeat(6, max-content);
         column-gap: 3.5rem;
     }
+}
+
+
+.fa-sun{
+    color: yellow;
+    padding: 0 1rem;
+}
+
+.fa-moon{
+    /* color: lime; */
+    padding: 0 1rem;
+}
+
+.fa-chevron-up{
+    color: lime;
 }
