@@ -53,6 +53,7 @@
 
    body{
     margin-top: 0 !important;
+    /* margin-bottom: 0 !important; */
 
    }
 
@@ -585,15 +586,24 @@ img{
     bottom:5rem;
 }
 
-.show-certificate{
+.show-certificate-icon{
     padding: 0.75rem;
+    text-decoration: none;
 
+}
+
+.show-certificate-icon{
+    color: coral;
+    
 }
 
 .section{
     margin-top: 2rem;
 }
 
+.fa-check{
+    padding-right: 0.5rem;
+}
 
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
@@ -646,7 +656,8 @@ img{
     }
 
     .resume__left{
-        background-color: var(--container-color-alt);
+        /* background-color: var(--container-color-alt); */
+        /* background-color: rgb(180, 225, 151,0.25) */
     }
 
     .resume__left,
